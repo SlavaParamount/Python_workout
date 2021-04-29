@@ -5,6 +5,12 @@ a = input()
 res = 0
 
 for i, s in enumerate(a):
-    res += dic[s] * (16**(len(a) - i - 1))
+    try:
+        res += dic[s] * (16**(len(a) - i - 1))
+    except:
+        print("Error input!")
 
 print(res)
+
+for i in range[1, 10]
+    print(i)
